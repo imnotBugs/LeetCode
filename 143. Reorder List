@@ -2,7 +2,7 @@ class Solution {
 public:
     void reorderList(ListNode* head) {
         if (!head) return;
-        
+      
         ListNode *tmp = head, *half = head, *prev = NULL;
         while (tmp->next && tmp->next->next) {
             tmp = tmp->next->next;
