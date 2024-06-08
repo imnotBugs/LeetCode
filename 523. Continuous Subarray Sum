@@ -1,5 +1,3 @@
-#include <vector>
-
 class Solution {
 public:
     bool checkSubarraySum(std::vector<int>& numbers, int divisor) {
